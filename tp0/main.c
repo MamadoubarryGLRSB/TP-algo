@@ -161,7 +161,7 @@ int main() {
     int index = findSubstring(str, substring);
 
     if (index != -1) {
-        printf("La sous-chaîne \"%s\" a été trouvée à l'index %d dans \"%s\".\n", substring, index, str);
+        printf("La sous-chaîne\"%s\" a été trouvée à l'index %d dans \"%s\".\n", substring, index, str);
     } else {
         printf("La sous-chaîne \"%s\" n'a pas été trouvée dans \"%s\".\n", substring, str);
     }
